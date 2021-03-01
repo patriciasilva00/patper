@@ -1,0 +1,23 @@
+{
+    "name": "patper",
+    "displayName": "patper",
+    "description": "dark background with bright-enough colors",
+    "publisher": "patsilva",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.53.0"
+    },
+    "icon": "icons/logo.png",
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "patper",
+                "uiTheme": "vs-dark",
+                "path": "./themes/patper-color-theme.json"
+            }
+        ]
+    }
+}
